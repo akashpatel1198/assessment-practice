@@ -1,0 +1,50 @@
+/* thanks for having me :) - zoe*/
+/*Hello from the Void - the Void*/
+
+body {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	color: #ebac80;
+	background-color: #3e6e70;
+}
+
+.bodyContainer {
+	display: flex;
+	flex-wrap: wrap;
+    
+	justify-content: space-around;
+	align-items: center;
+}
+.appTitle {
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+.taskContainer {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+    align-items: center;
+	justify-content: flex-start;
+}
+
+.inputDiv {
+	display: flex;
+	margin: auto;
+	height: 24px;
+	flex-direction: row;
+}
+
+input {
+	border-radius: 10px;
+	background-color: #ebac80;
+	color: black;
+}
+
+button {
+	border-radius: 10px;
+	background-color: #ebac80;
+	color: black;
+}
